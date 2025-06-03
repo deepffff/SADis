@@ -1,17 +1,25 @@
 <!--
  * @Description: Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)
  * @Date: 2025-03-21 13:34:33
- * @LastEditTime: 2025-06-03 18:45:22
+ * @LastEditTime: 2025-06-03 18:53:50
  * @FilePath: \SADis\README.md
 -->
 
 # SADis
-The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)](https://arxiv.org/pdf/2503.14275)**.
+The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)](https://arxiv.org/pdf/2503.14275)**. 
+
+### Features of SADis
+- **Color-Texture Disentanglement**: Separates color and texture attributes for flexible control.
+- **Training-Free**: No need for additional training, enabling fast and efficient stylization.
+- **Customizable Outputs**: Customize color and texture elements to generate your desired artistic images.
+
 
 <div align="center">
     <a href="https://arxiv.org/abs/2503.14275" target="_blank" style="color: pink;">[Arxiv]  </a>&nbsp;&nbsp
     <a href="https://deepffff.github.io/sadis.github.io/" target="_blank" style="color: pink;">[Project page]</a>
 </div>
+
+
 
 ---
 
@@ -24,7 +32,7 @@ The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Styli
 
 ---
 
-## Try SADis
+## Steps to Use SADis for Stylization
 
 ### **1. Download Pretrained Weights**
 ```bash
