@@ -8,7 +8,7 @@
 # SADis
 The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)](https://arxiv.org/pdf/2503.14275)**. 
 
-### Features of SADis
+### 🚀 Features of SADis 🎉
 - **Color-Texture Disentanglement**: Separates color and texture attributes for flexible control.
 - **Training-Free**: No need for additional training, enabling fast and efficient stylization.
 - **Customizable Outputs**: Customize color and texture elements to generate your desired artistic images.
