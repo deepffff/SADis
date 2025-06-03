@@ -1,7 +1,7 @@
 <!--
  * @Description: Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)
  * @Date: 2025-03-21 13:34:33
- * @LastEditTime: 2025-06-03 18:28:23
+ * @LastEditTime: 2025-06-03 18:45:22
  * @FilePath: \SADis\README.md
 -->
 
@@ -79,3 +79,8 @@ If you find the project useful, please cite the papers:
   url={https://arxiv.org/abs/2503.14275}, 
 }
 ```
+
+
+## Acknowledgements
+Our work is mainly based on the following projects:
+- InstantStyle: https://github.com/Upforbion43/InstantStyle.git
