@@ -72,7 +72,7 @@ python infer_style_plus_color_texture.py
 
 
 ## Citation
-If you find the project useful, please cite the papers:
+If you find the project useful, please cite the papers and give a star, thanks!
 
 
 
