@@ -603,7 +603,7 @@ class IPAdapterPlusXL(IPAdapter):
 
         ###################a pure gray image is obtained by averaging the gray texture img #####################
         texture_img_np = np.array(texture_ref_img[0])
-        mean_values =  texture_img_np.mean(axis=(0, 1))  # 计算沿着宽度和高度的均值
+        mean_values =  texture_img_np.mean(axis=(0, 1))  
         texture_img_puregray = np.full_like(texture_img_np, mean_values, dtype=np.uint8)
         texture_img_puregray = Image.fromarray(texture_img_puregray)
         texture_img_puregray.save('pure_gray.png')
@@ -629,13 +629,10 @@ class IPAdapterPlusXL(IPAdapter):
         clip_image_embeds = clr_clip_image_embeds*color_scale - clr_txr_clip_image_embeds*subscale + txr_clip_image_embeds2*texture_scale
         
 
-        image_prompt_embeds = self.image_proj_model(clip_image_embeds)  # ipadapterplus此处为一个atten [1, 257, 1280]->[1, 16, 2048]
+        image_prompt_embeds = self.image_proj_model(clip_image_embeds)  # ipadapterplus [1, 257, 1280]->[1, 16, 2048]
 
 
-        # ################# motidifications, remove if cat if don't use adain after CA 拼接颜色，ca后使用adain进行辅助################
-        # # color img embedding
-        # image_prompt_embeds_clr = self.image_proj_model(clr_clip_image_embeds)  # ipadapterplus此处为一个atten [1, 257, 1280]->[1, 16, 2048]
-        # image_prompt_embeds = torch.cat((image_prompt_embeds, image_prompt_embeds_clr), 1) # [1, 16, 2048]->[1, 32, 2048]
+
         
         
 
