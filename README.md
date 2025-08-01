@@ -1,8 +1,8 @@
 <!--
  * @Description: Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)
  * @Date: 2025-03-21 13:34:33
- * @LastEditTime: 2025-08-01 14:35:30
- * @FilePath: /color_texture_transfer/disk1/users/jqin/SADis/README.md
+ * @LastEditTime: 2025-08-01 21:24:43
+ * @FilePath: \SADis\README.md
 -->
 
 # SADis
@@ -12,6 +12,7 @@ The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Styli
 - **Color-Texture Disentanglement**: Separates color and texture attributes for flexible control.
 - **Training-Free**: No need for additional training, enabling fast and efficient stylization.
 - **Customizable Outputs**: Customize color and texture elements to generate your desired artistic images.
+- **Support ControlNet-Based Image-to-Image Stylization**
 
 
 <div align="center">
