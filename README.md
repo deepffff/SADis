@@ -76,7 +76,7 @@ python infer_style_controlnet_color_texture.py
 
 
 ## Citation
-If you find the project useful, please cite the papers:
+If you find the project useful, please cite the papers and give a star, thanks!
 
 
 
@@ -95,4 +95,4 @@ If you find the project useful, please cite the papers:
 
 ## Acknowledgements
 Our work is mainly based on the following projects:
-- InstantStyle: https://github.com/Upforbion43/InstantStyle.git
+- [InstantStyle](https://github.com/instantX-research/InstantStyle.git)
