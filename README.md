@@ -1,8 +1,8 @@
 <!--
  * @Description: Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)
  * @Date: 2025-03-21 13:34:33
- * @LastEditTime: 2025-06-03 19:47:01
- * @FilePath: \SADis\README.md
+ * @LastEditTime: 2025-08-01 14:35:30
+ * @FilePath: /color_texture_transfer/disk1/users/jqin/SADis/README.md
 -->
 
 # SADis
@@ -59,13 +59,17 @@ conda activate color_texture
 ```
 
 
-### **3. Run Inference**
+### **3. Run Inference for Text-to-image Stylization**
 ```bash
 python infer_style_plus_color_texture.py
 # Note: Adjust hyperparameters as recommended in the comments to achieve better performance.
 ```
 
-
+### **3. Run Inference for ControlNet-based Image-to-image Stylization**
+```bash
+python infer_style_controlnet_color_texture.py
+# Note: Adjust hyperparameters as recommended in the comments to achieve better performance.
+```
 
 
 ---
