@@ -5,15 +5,20 @@
  * @FilePath: \SADis\README.md
 -->
 
+
+
 # SADis
 The implement of the paper **[Free-Lunch Color-Texture Disentanglement for Stylized Image Generation (SADis)](https://arxiv.org/pdf/2503.14275)**. 
+
+### 💥💥💥Accepted by NeurIPS 2025 🎉🎉🎉
 
 ### 🚀 Features of SADis 🎉
 - **Color-Texture Disentanglement**: Separates color and texture attributes for flexible control.
 - **Training-Free**: No need for additional training, enabling fast and efficient stylization.
 - **Customizable Outputs**: Customize color and texture elements to generate your desired artistic images.
 - **Support ControlNet-Based Image-to-Image Stylization**
-
+- **TODO: Gradio demo**
+- **TODO: huggingface demo**
 
 <div align="center">
     <a href="https://arxiv.org/abs/2503.14275" target="_blank" style="color: pink;">[Arxiv]  </a>&nbsp;&nbsp
